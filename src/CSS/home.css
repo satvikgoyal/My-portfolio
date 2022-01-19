@@ -1,0 +1,98 @@
+@import 'utility.css';
+
+header{
+    background-color: var(--black);
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 87%,0 100%);
+}
+
+.container{
+    max-width:1000px;
+    margin: 0 auto;
+    padding:0 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header nav .nav-left a{
+    color:var(--white);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+header nav .nav-left a:hover{
+    color:var(--green);
+}
+
+header nav{
+    padding: 2rem 0;
+    /* position: fixed; */
+}
+
+header nav .branding{
+    margin-right: 3rem;
+}
+
+.hero{
+    padding: 3rem 0;
+    /* margin-top: 3rem; */
+}
+
+.hero img{
+    width: 400px;
+}
+
+.hero .right{
+    color: var(--white);
+}
+
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--green);
+    margin-bottom: 0.5rem;
+}
+
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height:1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span{
+    color: var(--green);
+}
+
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.hero .right{
+    margin-top: -7rem;
+}
+
+@media (max-width:1024px){
+    header #main-nav{
+        display: none;
+    }
+
+    .hero .left img{
+        width: 260px;
+    }
+
+    .hero .right h1{
+        font-size: 3rem;
+    }
+
+    .hero{
+        padding-top:10rem;
+    }
+
+    header{
+        clip-path: polygon(0 0,100% 0,100% 100%,27% 89%,0 100%);
+    }
+}

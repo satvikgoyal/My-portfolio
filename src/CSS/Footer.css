@@ -1,0 +1,27 @@
+footer{
+    background-color: var(--black);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+footer .footer-logo{
+    margin-bottom: 3rem;
+    width: 150px;
+}
+
+footer .footer-socials a{
+    color: white;
+    margin-right: 1rem;
+}
+
+footer .footer-socials{
+    margin-bottom: 3rem;
+    margin-right: -1rem;
+    width: 100%;
+    /* overflow: hidden; */
+    /* box-sizing: border-box; */
+}
+
+footer .copyright{
+    color: var(--textColor);
+}

@@ -1,0 +1,121 @@
+@import "utility.css";
+*{
+    font-family: 'Lato',sans-serif;
+}
+.qualification_tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:2rem ;
+}
+
+.qualification_button{
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.qualification_button:hover{
+    color: var(--green);
+}
+
+.qualification_icon{
+    font-size: 1rem;
+    margin-right: 0.25rem;
+    position: relative;
+    top: 10%;
+}
+
+.qualification_data{
+   display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification_title{
+    font-size: medium;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.qualification_subtitle{
+    display: inline-block;
+    font-size: small;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.qualification_calendar{
+    size: 1.5rem;
+    font-size:small;
+    margin-right: 0.25rem;
+    color: var(--white);
+    padding-bottom: .5rem;
+}
+
+.qualification_percentage{
+    /* size: 1rem; */
+    font-size:small;
+    margin-right: 0.25rem;
+    color: var(--white);
+}
+
+.qualification_calendar_icon, .qualification_percentage_icon{
+    margin-right: 0.25rem;
+}
+
+.qualification_rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--green);
+    border-radius: 50%;
+}
+
+.qualification_line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--green);
+    transform: translate(6px,-7px);
+}
+
+.qualification_sections{
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.qualification .section_title,.section_subtitle{
+    /* margin:0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.qualification .section_title{
+    color:var(--green);
+}
+
+section.qualification .section_subtitle{
+    color: var(--white);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+section.qualification{
+    background-color: var(--black);
+    clip-path: polygon(0 0,100% 0,100% 100%,50% 87%,0 100%);
+    /* margin-top: 0; */
+    padding-top: 1rem;
+}
+
+/* .qualification_content{
+    display: none;
+}
+
+.qualification_button:hover .qualification_content{
+    display: block;
+} */

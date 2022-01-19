@@ -1,0 +1,49 @@
+import React from 'react'
+import logo from '../images/logo.svg'
+import man from '../images/man.png'
+import '../CSS/home.css'
+
+const Home = () => {
+    return (
+        <div>
+            <header>
+                <div id="Home" className="container">
+                    <nav id="main-nav" className="flex items-center justify-between">
+                        <div className="nav-left flex items-center">
+                            <div className="branding">
+                                <img src={logo} alt="logo"/>
+                            </div>
+                            <div>
+                                <a href="#Home">Home</a>
+                                <a href="#About">About</a>
+                                <a href="#Skills">Skills</a>
+                                <a href="#Projects">Projects</a>
+                                <a href="#Qualifications">Qualification</a>
+                            </div>
+                        </div>
+                        <div className="nav-right">
+                            <a href="#Contact"><button  className="btn btn-green">Contact</button></a>
+                        </div>
+                    </nav>
+                    <div className="hero flex items-center justify-between">
+                        <div className="left flex-1 flex justify-center">
+                            <img src={man} alt="man"/>
+                        </div>
+                        <div className="right flex-1">
+                            <h6>Hello</h6>
+                            <h1>I'am <span>Satvik Goyal</span></h1>
+                            <p>I am an enthusiastic learner with great learning skills, my learning stack is full of <b>MERN</b> related projects and some good <b>problem solving skills</b>. 
+                            With great communication and soft skills I can work in team as well as alone.</p>
+                            <div>
+                                {/* <button className="btn btn-transparent">Download CV</button> */}
+                                <a className="btn btn-transparent" href="https://drive.google.com/file/d/19YqBDsf6Esy_gfWClEByHXyvMwfWOUw3/view?usp=sharing">Download CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    )
+}
+
+export default Home

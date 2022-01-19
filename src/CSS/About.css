@@ -1,0 +1,66 @@
+@import 'utility.css';
+
+section{
+    padding:6rem 0;
+}
+
+section.about .about-img{
+    height: 450px;
+}
+
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+section.about h1 span{
+    color:var(--green);
+}
+
+section.about h3{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+section.about p{
+    font-family: 'Lato',sans-serif;
+    color:var(--textColor);
+    line-height: 1.9;
+    padding-bottom: 2rem;
+}
+
+section.about .social-icons{
+    display: flex;
+}
+
+section.about .social-icons a{
+    background-color: var(--black);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition:all .3s ease;
+}
+
+section.about .social-icons a:hover{
+    background-color: var(--green);
+    color: black;
+}
+/* section.about .social-icons a{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+} */
+
+@media (max-width:1024px){
+    section.about .about-img{
+        height: 360px;
+    }
+}
+
