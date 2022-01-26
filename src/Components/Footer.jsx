@@ -1,12 +1,15 @@
 import React from 'react'
-import logo2 from '../images/logo-2.svg'
+import logo2 from '../images/portfolio_logo2.svg'
 // import facebook from '../images/facebook.svg'
 import '../CSS/Footer.css'
 const Footer = () => {
     return (
         <div>
             <footer>
-                <img src={logo2} alt="logo" className="footer-logo"/>
+                <div className="branding">
+                    <img src={logo2} alt="logo" className="footer-logo"/>
+                    <p>Portfolio</p>
+                </div>
                 <div className="footer-socials">
                     <a href="https://www.linkedin.com/in/satvik-goyal-4b016919a/"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://github.com/satvikgoyal"><i class="fab fa-github"></i></a>

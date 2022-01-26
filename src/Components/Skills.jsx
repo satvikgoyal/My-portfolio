@@ -31,7 +31,7 @@ const Skills = () => {
                             <i class="fas fa-database"></i>
                             <h2>Mongo DB</h2>
                             <p>I have an intermediate exprecience with Mongo DB.
-                               I have used Node js in various MERN projects.</p>
+                               I have used Node js in my various MERN projects.</p>
                         </div>
                         <div className="card">
                         <i class="fab fa-react"></i>
@@ -43,7 +43,7 @@ const Skills = () => {
                         <div className="card">
                         <i class="fab fa-java"></i>
                             <h2>Java</h2>
-                            <p>Java is my most preferable programming language.I have whole grasp on OOPs concept also.I am a 5 star coder on HackerRank java problem solving.</p>
+                            <p>Java is my most preferable programming language. I have a whole grasp on OOPs concept. I am a 5 star coder on Hacker Rank java problem solving.</p>
                         </div>
                         <div className="card">
                         <i class="fab fa-js"></i>

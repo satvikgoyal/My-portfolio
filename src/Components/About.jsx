@@ -19,7 +19,7 @@ const About = () => {
                         Want to learn many things from every single project I'm going through</p> */}
                         <p>I am a 3rd year engineering grad pursuing <b>Computer Science</b>. I am an enthusiastic learner with great learning skills, my learning stack is full of <b>MERN</b> related projects and some good <b>problem solving skills</b>. 
                            I am a <b>5 star coder at Hacker Rank</b> in problem solving and java programming.</p>
-                        <p><b>My Goal:- </b>To become a Software Developer. To be a good developer who can create some useful product for millions people's life. 
+                        <p><b>My Goals :- </b>To become a Software Developer. To be a good developer who can create some useful product for millions people's life. 
                             Want to learn many things from every single project I'm going through</p>
                         <div className="social-icons">
                             <a href="https://www.linkedin.com/in/satvik-goyal-4b016919a/"><i class="fab fa-linkedin-in"></i></a>

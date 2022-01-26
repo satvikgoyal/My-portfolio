@@ -8,6 +8,7 @@ import Projects from "./Projects";
 import Qualification from "./Qualification";
 import Contact from "./Contact";
 import Footer from "./Footer";
+
 import '../CSS/App.css'
 import { UilBars } from '@iconscout/react-unicons'
 import { UilTimes } from '@iconscout/react-unicons'
@@ -41,6 +42,7 @@ function App() {
           <li><a href="#Skills" onClick={closeMenu}>Skills</a></li>
           <li><a href="#Projects" onClick={closeMenu}>Projects</a></li>
           <li><a href="#Qualifications" onClick={closeMenu}>Qualification</a></li>
+          <li><a href="#Contact" onClick={closeMenu}>Contact</a></li>
         </ul>
       </div>
       <Home/>

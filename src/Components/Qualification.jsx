@@ -28,11 +28,11 @@ const Qualification = () => {
                                     <span className="qualification_subtitle">Chitkara University</span>
                                     <div className="qualification_calendar">
                                         <UilCalendarAlt className="qualification_calendar_icon" size="1rem"/>
-                                        2019-2023
+                                        <p>2019-2023</p>
                                     </div>
                                     <div className="qualification_percentage">
                                         <UilPercentage className="qualification_percentage_icon" size="1rem"/>
-                                        10 CGPA
+                                        <p>10 CGPA</p>
                                     </div>
                                 </div>
 
@@ -55,11 +55,11 @@ const Qualification = () => {
                                     <span className="qualification_subtitle">Moti Lal Nehru Public School</span>
                                     <div className="qualification_calendar">
                                         <UilCalendarAlt className="qualification_calendar_icon" size="1rem"/>
-                                        2018-2019
+                                        <p>2018-2019</p>
                                     </div>
                                     <div className="qualification_percentage">
                                         <UilPercentage className="qualification_percentage_icon" size="1rem"/>
-                                        86.4%
+                                        <p>86.4%</p>
                                     </div>
                                 </div> 
                             </div>
@@ -71,11 +71,11 @@ const Qualification = () => {
                                     <span className="qualification_subtitle">Moti Lal Nehru Public School</span>
                                     <div className="qualification_calendar">
                                         <UilCalendarAlt className="qualification_calendar_icon" size="1rem"/>
-                                        2016-2017
+                                        <p>2016-2017</p>
                                     </div>
                                     <div className="qualification_percentage">
                                         <UilPercentage className="qualification_percentage_icon" size="1rem"/>
-                                        10 CGPA
+                                        <p>10 CGPA</p>
                                     </div>
                                 </div> 
 

@@ -33,12 +33,34 @@ header nav{
 }
 
 header nav .branding{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -0.5rem;
+}
+header nav .branding img{
     margin-right: 3rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+header nav .branding p{
+    color: #3DCFD3;
+    /* z-index: 1; */
+    position: relative;
+    left: -2.5rem;
+    top: 0.5rem;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: cursive;
 }
 
 .hero{
-    padding: 3rem 0;
-    /* margin-top: 3rem; */
+    padding: 10rem 0;
+    /* margin-top: 5rem; */
 }
 
 .hero img{
@@ -91,6 +113,10 @@ header nav .branding{
     .hero{
         padding-top:10rem;
     }
+
+    /* .hero .right .cv_button a{
+        margin-bottom: 10rem;
+    } */
 
     header{
         clip-path: polygon(0 0,100% 0,100% 100%,27% 89%,0 100%);

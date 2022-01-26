@@ -4,6 +4,7 @@ import logo from '../images/resume.jpg'
 import logo1 from '../images/hero.png'
 import Slider from "react-slick"
 import "../CSS/Projects.css"
+
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -47,7 +48,9 @@ const Projects = () => {
             <section id="Projects"className="projects">
                 <div className="container">
                     <h1 className="section-heading"><span>My</span> Projects</h1>
-                    <p>I have a lot of web developement projects from basic to intermediate. Below projects are some of them. You can check it on github just by clicking on them</p>
+                    <p>I have a lot of web developement projects from basic to intermediate. Below projects are some of them.
+                        The projects will be uploaded soon on Github.
+                    </p>
                     <Slider className="slider" {...settings}>
                         {/* <div className="slide-show "> */}
                             <div className="slide">
