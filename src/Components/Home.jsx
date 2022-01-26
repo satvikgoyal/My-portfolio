@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/portfolio_logo2.svg'
-import man from '../images/Home_img.svg'
+import man from '../images/home_img2.svg'
 import '../CSS/home.css'
 
 const Home = () => {

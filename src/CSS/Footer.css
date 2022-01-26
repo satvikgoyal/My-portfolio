@@ -52,7 +52,7 @@ footer .footer-socials{
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     /* color: white; */
 }
@@ -60,6 +60,7 @@ footer .footer-socials{
 footer .footer-socials a{
     color: white;
     font-size: x-large;
+    margin: 0 1rem;
     margin-bottom: 2rem;
 }
 footer .copyright{
