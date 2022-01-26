@@ -28,3 +28,12 @@ section.projects .slider .slide span{
     font-size: 1rem;
     font-weight: 400;
 }
+
+section.projects .slider .slide span a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section.projects .slider .slide span a:visited{
+    color: black;
+}

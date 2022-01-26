@@ -68,7 +68,7 @@ const Projects = () => {
                             <div className="slide">
                                 <img  src={weather} alt="lady"/>
                                 <p>Developed a weather forecasting appliaction using open weather web api.Appliaction is created using <b>JavaScript</b></p>
-                                <span>Weather app</span>
+                                <span><a href="https://satvikweatherapp.netlify.app/">Weather app</a></span>
                             </div> 
                         {/* </div> */}
                     </Slider>
