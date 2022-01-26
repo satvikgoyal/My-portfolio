@@ -37,7 +37,7 @@ const Home = () => {
                             With great communication and soft skills I can work in team as well as alone.</p>
                             <div className="cv_button">
                                 {/* <button className="btn btn-transparent">Download CV</button> */}
-                                <a className="btn btn-transparent" href="https://drive.google.com/file/d/19YqBDsf6Esy_gfWClEByHXyvMwfWOUw3/view?usp=sharing">Download CV</a>
+                                <a className="btn btn-transparent" href="https://drive.google.com/file/d/1R2RqlKQAmJYvGftyfzzz78Rxr96DH4_Y/view?usp=sharing">Download CV</a>
                             </div>
                         </div>
                     </div>
