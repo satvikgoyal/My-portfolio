@@ -62,7 +62,7 @@ const Projects = () => {
                             <div className="slide">
                                 <img  src={logo1} alt="lady"/>
                                 <p>Developed a Real Estate web appliaction with fully functional login system using redux.
-                                    Application also contains a fully functional wishlist. The whole project is craeted using <b>React and Redux</b></p>
+                                    Application also contains a fully functional wishlist. The whole project is created using <b>React and Redux</b></p>
                                 <span>Real Estate Website</span>
                             </div>
                             <div className="slide">
