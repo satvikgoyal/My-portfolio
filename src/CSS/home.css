@@ -98,9 +98,13 @@ header nav .branding p{
 }
 
 @media (max-width:1024px){
-    header #main-nav{
+    header #main-nav .menu,.nav-right{
         display: none;
     }
+
+    /* header #main-nav .nav-left .branding{
+        display: show;
+    } */
 
     .hero .left img{
         width: 260px;

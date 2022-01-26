@@ -65,3 +65,14 @@ footer .footer-socials a{
 footer .copyright{
     color: var(--textColor);
 }
+
+@media (max-width:576px){
+    footer .footer-socials{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

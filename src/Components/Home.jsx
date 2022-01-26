@@ -14,7 +14,7 @@ const Home = () => {
                                 <img src={logo} alt="logo"/>
                                 <p>Portfolio</p>
                             </div>
-                            <div>
+                            <div className="menu">
                                 <a href="#Home">Home</a>
                                 <a href="#About">About</a>
                                 <a href="#Skills">Skills</a>
