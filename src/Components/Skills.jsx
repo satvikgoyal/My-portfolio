@@ -36,8 +36,7 @@ const Skills = () => {
                         <div className="card">
                         <i class="fab fa-react"></i>
                             <h2>React</h2>
-                            <p>I have an intermediate exprience in React.I have craeted a Real Estate project completely based on React and Redux.
-                                Even this website is being created in React JS
+                            <p>I am an accomplished professional in React with a strong track record of successfully delivering impactful projects for my current organization. Throughout my tenure, I have been involved in numerous significant initiatives that directly influenced the end customer experience.
                             </p>
                         </div>
                         <div className="card">
@@ -48,13 +47,21 @@ const Skills = () => {
                         <div className="card">
                         <i class="fab fa-js"></i>
                             <h2>JavaScript</h2>
-                            <p>I have an intermediate Exprience with JavaScript. I have created a travelling site using HTMl,CSS and JavaScript.</p>
+                            <p>I am an accomplished professional with a strong track record of successfully delivering impactful projects for my current organization. Throughout my tenure, I have been involved in numerous significant initiatives that directly influenced the end customer experience.</p>
                         </div>  
                         <div className="card">
                         <i class="fas fa-code"></i>
                             <h2>C/C++</h2>
                             <p>I have basic knowledge of C++ and intermediate knowlege of C. I have intermediate level certification in C from HackerRank</p>
                         </div>  
+                        {/* <div className="card"> */}
+                        {/* <i class="fas fa-code"></i> */}
+                        {/* <i class="fa-sharp fa-regular fa-gear-code" /> */}
+                        {/* <i class="fa-sharp fa-regular fa-vial-virus"></i> */}
+                        {/* <i class="fa-thin fa-gear"></i>
+                            <h2>Jest</h2>
+                            <p>I possess good experience in writing unit tests utilizing the Jest framework. Notably, I have achieved an UT coverage of 43.5% for the codebase within my present organization.</p>
+                        </div>   */}
                         {/* <div className="card">
                         <i class="fas fa-server"></i>
                             <h2>SQL</h2>

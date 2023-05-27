@@ -87,6 +87,80 @@ const Qualification = () => {
                         </div>
                     </div>
                 </div>
+                <div className="qualifucation_container container">
+                    <div className="qualification_tabs" style={{marginBottom: '1rem'}}>
+                        <div className="qualification_button button--flex" style={{marginTop: '24px'}}>
+                            <UilGraduationCap className="qualification_icon"/>
+                            Experience
+                        </div>
+                    </div>
+                    <div className="qualification_sections">
+                        <div className="qualification_content">
+                            <div className="qualification_data">
+                                <div className="qualification_data_container">
+                                    <h3 className="qualification_title">Frontend Engineer Intern</h3>
+                                    <span className="qualification_subtitle">Razorpay</span>
+                                    <div className="qualification_calendar">
+                                        <UilCalendarAlt className="qualification_calendar_icon" size="1rem"/>
+                                        <p>16 March 2022 - present</p>
+                                    </div>
+                                    {/* <div className="qualification_percentage">
+                                        <UilPercentage className="qualification_percentage_icon" size="1rem"/>
+                                        <p>10 CGPA</p>
+                                    </div> */}
+                                </div>
+
+                                <div>
+                                    <span className="qualification_rounder"></span>
+                                    <span className="qualification_line"></span>
+                                </div>
+                            </div>
+
+                            {/* <div className="qualification_data">
+                                <div></div>
+
+                                <div>
+                                    <span className="qualification_rounder"></span>
+                                    <span className="qualification_line"></span>
+                                </div>
+
+                                <div className="qualification_data_container">
+                                    <h3 className="qualification_title">12th</h3>
+                                    <span className="qualification_subtitle">Moti Lal Nehru Public School</span>
+                                    <div className="qualification_calendar">
+                                        <UilCalendarAlt className="qualification_calendar_icon" size="1rem"/>
+                                        <p>2018-2019</p>
+                                    </div>
+                                    <div className="qualification_percentage">
+                                        <UilPercentage className="qualification_percentage_icon" size="1rem"/>
+                                        <p>86.4%</p>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div className="qualification_data">
+
+                                <div className="qualification_data_container">
+                                    <h3 className="qualification_title">10th</h3>
+                                    <span className="qualification_subtitle">Moti Lal Nehru Public School</span>
+                                    <div className="qualification_calendar">
+                                        <UilCalendarAlt className="qualification_calendar_icon" size="1rem"/>
+                                        <p>2016-2017</p>
+                                    </div>
+                                    <div className="qualification_percentage">
+                                        <UilPercentage className="qualification_percentage_icon" size="1rem"/>
+                                        <p>10 CGPA</p>
+                                    </div>
+                                </div> 
+
+                                <div>
+                                    <span className="qualification_rounder"></span>
+                                    <span className="qualification_line"></span>
+                                </div>
+                            </div> */}
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     )

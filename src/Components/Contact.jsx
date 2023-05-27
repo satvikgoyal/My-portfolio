@@ -24,7 +24,7 @@ const Contact = () => {
                         <div className="card">
                         <i class="fas fa-envelope"></i>
                             <h1>Email</h1>
-                            <h6>svsgoyal2001@gmail.com</h6>
+                            <h6>satvik.goyal1509@gmail.com</h6>
                         </div>
                         <div className="card">
                             <i class="fas fa-address-card"></i>

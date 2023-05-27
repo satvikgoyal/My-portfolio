@@ -48,8 +48,7 @@ const Projects = () => {
             <section id="Projects"className="projects">
                 <div className="container">
                     <h1 className="section-heading"><span>My</span> Projects</h1>
-                    <p>I have a lot of web developement projects from basic to intermediate. Below projects are some of them.
-                        The projects will be uploaded soon on Github.
+                    <p>During my tenure at Razorpay, I have successfully completed numerous significant projects, taking ownership of the frontend development from end-to-end. These projects showcase my expertise and proficiency in delivering high-quality solutions. For further details regarding my work experience and project portfolio, kindly refer to my resume. Additionally, I have also undertaken personal projects spanning various levels, ranging from basic to intermediate, which further highlight my commitment to continuous growth and skill development.
                     </p>
                     <Slider className="slider" {...settings}>
                         {/* <div className="slide-show "> */}
